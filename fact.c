@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main()
 {
-unsigned long long int fact=1;
+unsigned long long int factorialnum=1;
 int n,i;
 scanf("%d",&n);
 for(i=1;i<=n;i++)
 {
-	fact*=i;
+	factorialnum*=i;
 }
-printf("%lld",fact);
+printf("%lld",factorialnum);
 }
